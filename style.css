@@ -1,0 +1,134 @@
+body {
+	color: #070600;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	font-family: 'Rosario Menlo';
+}
+
+#header {
+	background-color: black;
+	height: 300px;
+	color: white;
+}
+
+#main {
+	padding: 0 2em;
+}
+
+#documents {
+	padding: 0 4em;
+}
+
+.hand {
+	height: 320px;
+	width: 240px;
+}
+
+.handpart {
+	position: relative;
+	max-width: 100%;
+	max-height: 100%;	
+	transition: opacity 400ms cubic-bezier(.17, .67, .83, .67);	
+}
+
+#bones {
+	top: -100%;
+	opacity: 0;
+}
+
+#header:hover #bones {
+	opacity: 1;
+	filter: alpha(opacity = 10);
+}
+
+#header > div {
+	padding: 0 4em;
+}
+
+#title {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+h1 {
+	font-size: 3em;
+	margin: 0.2em 0;
+}
+
+h2 {
+	font-size: 1em;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.logo {
+	padding-bottom: 1.5em;
+}
+
+
+.infobox-title {
+	font-weight: bold;
+	font-size: 3em;
+	margin: 0.5em 0 0.5em 0;
+}
+
+.infobox {
+	padding: 0 2em;
+}
+
+.constrain-image > img  {
+	max-width: 100%;
+	height: auto;
+}
+
+.constrain-image {
+	max-width: 250px;
+	min-width: 130px;	
+	padding-right: 1em;
+}
+
+
+.flex {
+	display: flex;
+	justify-content: flex-start;
+}
+
+@media (max-width: 1035px) {
+	.mobile-flex {
+		flex-direction: column;
+	}
+	
+	.hand {
+		display: none;
+	}
+	
+
+}
+
+.done {
+	color: #718CFF;
+}
+
+b.wip {
+	color: #757575;
+}
+
+p.wip {
+	color: #FF6073;
+}
+
+.filename {
+	font-size: 1.3em;
+}
+
+.deadline {
+	margin-top: 0.2em;
+}
+
+.flex-between {
+	justify-content: space-between;
+}
