@@ -7,8 +7,13 @@ body {
 }
 
 #header {
-	background-color: black;
-	height: 300px;
+	background-size: cover;
+
+	background-image:
+		linear-gradient(to right, rgba(127, 48, 57, 0.2), rgba(46, 60, 117, 0.85)),
+	    url('resources/header.jpg');
+	
+	height: 280px;
 	color: white;
 }
 
@@ -105,9 +110,8 @@ a {
 	.hand {
 		display: none;
 	}
-	
-
 }
+
 
 .done {
 	color: #718CFF;
