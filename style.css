@@ -13,7 +13,7 @@ body {
 		linear-gradient(to left, rgba(127, 48, 57, 0.2), rgba(46, 60, 117, 0.85)),
 	    url('resources/header.jpg');
 	
-	height: 280px;
+	height: 265px;
 	color: white;
 }
 
@@ -26,8 +26,8 @@ body {
 }
 
 .hand {
-	height: 320px;
-	width: 240px;
+	height: 300px;
+	width: 225px;
 }
 
 .handpart {
@@ -63,6 +63,7 @@ h1 {
 
 h2 {
 	font-size: 1em;
+	margin: 0;
 }
 
 a {
@@ -77,8 +78,8 @@ a {
 
 .infobox-title {
 	font-weight: bold;
-	font-size: 2.8em;
-	margin: 0.4em 0 0.4em 0;
+	font-size: 3em;
+	margin: 0.5em 0 0.5em 0;
 }
 
 .infobox {
